@@ -1,0 +1,14 @@
+{
+  "name": "sticker-bot",
+  "version": "0.0.1",
+  "description": "Telegram sticker gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro-bot -d ${NOW_URL}"
+  },
+  "dependencies": {
+    "micro-bot": "^0.7.0",
+    "node-fetch": "^1.6.1",
+    "sharp": "^0.16.0"
+  }
+}
